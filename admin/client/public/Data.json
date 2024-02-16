@@ -1,0 +1,8 @@
+{
+    "databaseData" :[
+        {"customers":1500},
+        {"purchases":3000},
+        {"sales":1000},
+        {"profit":5000}
+    ]
+}
