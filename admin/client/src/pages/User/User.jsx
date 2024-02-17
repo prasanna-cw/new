@@ -1,6 +1,8 @@
 import React from 'react';
 import Box from '@mui/material/Box';
 import MiniDrawer from '../../component/MiniDrawer';
+import LoginForm from './LoginForm';
+
 
 
 const User = () => {
@@ -9,9 +11,10 @@ const User = () => {
      <Box  sx={{display: "flex"}}>
         <MiniDrawer/>
       <Box component ="main" sx={{flexGrow: 1, p:3}}>
-         <h1>User</h1>
+      <LoginForm />
+      
       </Box>
-
+      
      </Box>
    
    </>

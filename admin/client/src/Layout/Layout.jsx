@@ -4,6 +4,7 @@ import Dashboard from '../pages/Dashboard/Dashboard';
 import User from  '../pages/User/User'
 
 
+
 const Layout = ({ children }) => {
   return (
     <Router>
@@ -20,10 +21,13 @@ const Layout = ({ children }) => {
 
             <Route path="/" element={<Dashboard />} />
             <Route path="/users" element={<User />} />
+            
             {/* Add more routes for additional pages */}
           </Routes>
+          
         </div>
       </div>
+
     
     </Router>
   );
