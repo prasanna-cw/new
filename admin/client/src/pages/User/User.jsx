@@ -11,7 +11,7 @@ const User = () => {
      <Box  sx={{display: "flex"}}>
         <MiniDrawer/>
       <Box component ="main" sx={{flexGrow: 1, p:3}}>
-      <LoginForm />
+      {/* <LoginForm /> */}
       
       </Box>
       

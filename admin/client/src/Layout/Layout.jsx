@@ -1,7 +1,8 @@
 import React from 'react';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Dashboard from '../pages/Dashboard/Dashboard';
-import User from  '../pages/User/User'
+import User from  '../pages/User/User';
+import LoginForm from '../LoginForm';
 
 
 
@@ -19,8 +20,9 @@ const Layout = ({ children }) => {
 
           <Routes>
 
-            <Route path="/" element={<Dashboard />} />
+            <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/users" element={<User />} />
+            <Route path="/" element={<LoginForm />} />
             
             {/* Add more routes for additional pages */}
           </Routes>

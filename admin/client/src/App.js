@@ -6,11 +6,10 @@ import LoginForm from './pages/User/LoginForm';
 function App() {
   return (
     <div>
-      <LoginForm />
+
       <Layout /> 
     </div>
   );
 }
 
 export default App;
-
